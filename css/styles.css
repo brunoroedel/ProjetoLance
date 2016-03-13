@@ -39,6 +39,10 @@ h1 span{
 	padding: 0px;
 }
 
+.no-border{
+	border: 0px !important;
+}
+
 /*--Menu tempo real--*/
 
 .menu-tempo-real{
@@ -223,9 +227,128 @@ h1 span{
 
 .eventos-jogo{
 	border: 1px solid #ebecee;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+
+
+.eventos-jogo .tempo{
+	float: left;
+	width: 75px;
+	text-align: center;
+}
+
+.eventos-jogo .tempo p{
+	margin: 0px;
+	font-size: 12px;
+}
+
+.eventos-jogo .tempo h3{
+	font-size: 40px;
+	font-weight:  bold;
+	margin: 0px 0px 0px;
+}
+
+.eventos-jogo .tempo img{
+	width: 50px;
+	height: 50px;
+	border-radius: 3px;
+	border: 1px solid #cfcfcf;
+	margin-top: 10px;
+}
+
+
+.eventos-jogo .direita{
+	width: 100%;
+	padding-left: 75px;
+	box-sizing: border-box;
+}
+
+.eventos-jogo .tipo{
+	width: 100%;
+    float: left;
+    padding: 10px 0px 0px 20px;
+    box-sizing: border-box;
+}
+
+.eventos-jogo .tipo .clube,
+ .eventos-jogo .tipo .evento{
+	float: left;
+	width: 30px;
+	height: 18px;
+	text-align: center;
+}
+
+.eventos-jogo .tipo .clube{
+	border-right: 1px solid #cfcfcf;
+}
+
+.eventos-jogo .tipo .clube img{
+	width: 16px;
+}
+
+.eventos-jogo  .descricao{
+	margin: 10px 0px 0px 20px;
+    float: left;
+}
+
+.eventos-jogo  .descricao p{
+	margin: 0px;
+	line-height: 1.1;
+	font-size: 14px;
+}
+
+.eventos-jogo .descricao p.assinatura{
+	margin: 0px 0px 5px 0px;
+}
+
+.eventos-jogo .foto-jogo,
+.eventos-jogo .video-jogo{
+	width: 100%;
+	border: 1px solid #cfcfcf;
+	margin: 15px 0px 0px 0px;
+	float: left;
+	position: relative;
+}
+
+
+.eventos-jogo .foto-jogo img,
+.eventos-jogo .video-jogo img{
+	width: 100%;
+}
+
+.eventos-jogo .video-jogo a{
+	width: 100%;
+	position: relative;
+	display: block;
+}
+
+.eventos-jogo .video-jogo a .icon-play{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top:-40px;
+	margin-left:-40px;
+	width: 89px;
+	height: 89px;
+}
+
+.eventos-jogo .video-jogo a .icon-play img{
+	width: 89px;
+	height: 89px;
+	border: none;
+	z-index: 2;
+}
+ 
+.eventos-jogo.gol{
 	background: #fff7dd;
 }
-    
+
+.eventos-jogo.reporter-lance{
+	background: #ebf6fa;
+}
+
+ 
 
 /*--Carrossel Resultados--*/
 

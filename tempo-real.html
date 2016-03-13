@@ -45,7 +45,7 @@
                         </div>
                     </div>
                 </div>
-
+                <!--// Coluna esquerda menu-->
 
                 <!--Coluna direita lance a lance-->
                 <div class="col-lg-10 col-md-10">
@@ -451,6 +451,7 @@
                     <!--timeline jogo-->
 
 
+                    
                     <div class="col-lg-7 col-md-7">
                         <div class="cabecalho-lance-a-lance">
                             <h3>LANCE A LANCE</h3>
@@ -463,19 +464,123 @@
                             </div>
                         </div>
 
-                        <div class="eventos-jogo">
+                        <!-- evento jogo gol-->
+                        <div class="eventos-jogo gol">
                             <div class="tempo">
                                 <h3>49’</h3>
                                 <p>2o tempo</p>
                             </div>
-                            <div class="tipo">
-                                <img src="img/brasao-fluminense.png" class="clube"/>
-                                <img src=""/>
+                            
+                            <div class="direita">
+                                <div class="tipo">
+                                    <div class="clube">
+                                        <img src="img/brasao-fluminense.png"/>
+                                    </div>
+                                    <div class="evento">
+                                        <img src="img/evento-gol.png"/>
+                                    </div>
+                                </div>
+                                <div class="descricao">
+                                    <p>GOL DO FLUMINENSE! VINICIUS VINA!</p>
+                                </div>
                             </div>
-                            <div class="descricao">
-                                <p>GOL DO FLUMINENSE! VINICIUS VINA!</p>
-                            </div>
+                            <div class="spacer"></div>
                         </div>
+                        <!-- // evento jogo gol-->
+
+                        <!-- evento jogo substituicao-->
+                        <div class="eventos-jogo">
+                            <div class="tempo">
+                                <h3>48’</h3>
+                                <p>2o tempo</p>
+                            </div>
+                            
+                            <div class="direita">
+                                <div class="tipo">
+                                    <div class="clube">
+                                        <img src="img/brasao-fluminense.png"/>
+                                    </div>
+                                    <div class="evento">
+                                        <img src="img/evento-substituicao.png"/>
+                                    </div>
+                                </div>
+                                <div class="descricao">
+                                    <p>Fernando Bob desaba no gramado. Jogo é parada para o atendimento médico</p>
+                                </div>
+                            </div>
+                            <div class="spacer"></div>
+                        </div>
+                        <!-- // evento jogo substituicao-->
+
+                        <!-- evento jogo simples-->
+                        <div class="eventos-jogo">
+                            <div class="tempo">
+                                <h3>46’</h3>
+                                <p>2o tempo</p>
+                            </div>
+                            
+                            <div class="direita">
+                                <div class="descricao">
+                                    <p>Fernando Bob cruza na pequena área e Cavalieri afasta o perigo</p>
+                                </div>
+                            </div>
+                            <div class="spacer"></div>
+                        </div>
+                        <!-- // evento jogo simples-->
+
+
+
+                        <!-- evento jogo reporter Lance-->
+                        <div class="eventos-jogo reporter-lance">
+                            <div class="tempo">
+                                <img src="img/reporter-lance.jpg"/>
+                            </div>
+                            <div class="direita">
+                                <div class="tipo">
+                                    <div class="clube">
+                                        <img src="img/evento-twitter.png"/>
+                                    </div>
+                                    <div class="evento">
+                                        <img src="img/evento-reporter.png"/>
+                                    </div>
+                                </div>
+                                <div class="descricao">
+                                    <p class="assinatura"><b>Leo Pereira</b> <a href=""><b>@leomito_pereira</b></a></p>
+                                    <p>Zé Roberto tenta voltar a ser titular para brilhar como no último clássico. Veja mais: <a href="">http://nolance.vc/MTU1NDcyNg== #trlance</a></p>
+                                </div>
+                            </div>
+                            <div class="foto-jogo">
+                                <img src="img/foto-jogo.jpg"/>
+                            </div>
+                            <div class="spacer"></div>
+                        </div>
+                        <!-- // evento jogo reporter Lance-->
+
+
+                        <!-- evento jogo Vídeo-->
+                        <div class="eventos-jogo">
+                            <div class="tempo">
+                                <img src="img/evento-video.png" class="no-border"/>
+                            </div>
+                            <div class="direita">
+                                <div class="descricao">
+                                    <p><b class="text-success">VÍDEO</b> Fred protagoniza lance perigoso e quase marca o terceiro tento tricolor.</p>
+                                </div>
+                            </div>
+                            <div class="video-jogo">
+                                <a href="#video" data-toggle="modal">
+                                    <img src="img/foto-jogo.jpg"/>
+                                    <div class="icon-play">
+                                        <img class="img/play-video.png"/>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="spacer"></div>
+                        </div>
+                        <!-- // evento jogo Vídeo-->
+
+
+
                     </div>
                     <div class="col-lg-5 col-md-5">
                         <div class="box-ad-quad">
@@ -484,16 +589,31 @@
                     </div>
 
 
-
+                    <div class="col-lg-12 col-md-12">
+                        <img src="img/banner-base.jpg"/>
+                    </div>
                 </div>
                 <!--Coluna direita lance a lance-->
             </div>
         </div>
+
+        <div class="modal fade" id="video">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="col-lg-12 text-center">
+                        <!--<iframe frameborder="0" width="480" height="270" src="//www.dailymotion.com/embed/video/x3wrkqj" allowfullscreen></iframe><br /><a href="http://www.dailymotion.com/video/x3wrkqj_afiando-a-pontaria-nene-faz-belos-gols-em-treino-do-vasco_sport" target="_blank">Afiando a pontaria! Nen&ecirc; faz belos gols em...</a> <i>por <a href="http://www.dailymotion.com/LANCETV" target="_blank">LANCETV</a></i>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/ui.js"></script>
-  </body>
+    </body>
 </html>
